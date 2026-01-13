@@ -1,7 +1,7 @@
 let downloads = [];
 let createdCount = 0;
 
-const TARGET_TOTAL = 6000;
+const TARGET_TOTAL = 2000;
 const BURST_PER_SEC = 260;
 
 let scrollY = 0;
