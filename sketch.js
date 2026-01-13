@@ -185,15 +185,15 @@ function drawCard(d, x, y, w, h) {
 
   // Filename (link blue)
   fill(...LINK);
-  textStyle(BOLD);
-  textSize(18);
+  textStyle(NORMAL);
+  textStyle(NORMAL);
   text(clipText(d.name, cardW - 260), cardX + 92, cardY + 40);
 
   // Optional "From ..." line
   if (d.showFrom) {
     fill(...MUTED);
     textStyle(NORMAL);
-    textSize(16);
+    textSize(14);
     text("From https://editor.p5js.org", cardX + 92, cardY + 70);
   }
 
