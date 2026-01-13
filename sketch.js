@@ -19,7 +19,7 @@ const OUTLINE = [90, 160, 255, 180];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textFont("system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial");
+  textFont("-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif");
   resetAll();
 }
 
@@ -86,8 +86,8 @@ function renderDownloadsPage() {
 
   // Title (Chrome-ish sizing)
   fill(...HEADER_TEXT);
-  textStyle(BOLD);
-  textSize(34);
+  textStyle(NORMAL);
+  textSize(24);
   text("Download History", leftPad, titleY);
 
   // Search bar
